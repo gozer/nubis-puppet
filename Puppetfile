@@ -1,4 +1,4 @@
-forge "http://forge.puppetlabs.com"
+forge "https://forgeapi.puppetlabs.com"
 
 ####################### NOTE #############################
 # All modules *must* be pinned to a specific version/tag #
