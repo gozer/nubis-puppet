@@ -21,7 +21,7 @@ mod 'torrancew/cron', '0.1.0'
 mod 'jbeard/nfs', '0.1.7'
 mod 'KyleAnderson/consul',
     :git => 'https://github.com/solarkennedy/puppet-consul.git',
-    :ref => '0.4.2'
+    :ref => 'v0.4.2'
 mod 'uberj-captainshove',
     :git => 'https://github.com/uberj/captainshove-puppet.git',
     :ref => '0.5.0'
