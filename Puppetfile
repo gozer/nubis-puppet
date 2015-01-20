@@ -25,6 +25,5 @@ mod 'KyleAnderson/consul',
 mod 'uberj-captainshove',
     :git => 'https://github.com/uberj/captainshove-puppet.git',
     :ref => '0.5.0'
-# Confd
 mod 'ajcrowe/confd', '0.2.0'
 mod 'srf/fluentd', '0.1.4'
