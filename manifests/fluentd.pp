@@ -1,5 +1,7 @@
 include ::fluentd
 
+fluentd::configfile { 'syslog': }
+
 fluentd::source { 'syslog_main': 
   configfile => 'syslog',
   type => 'tail',
