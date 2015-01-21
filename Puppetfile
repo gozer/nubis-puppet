@@ -27,3 +27,4 @@ mod 'uberj-captainshove',
     :ref => '0.5.0'
 mod 'ajcrowe/confd', '0.2.0'
 mod 'srf/fluentd', '0.1.4'
+mod 'mjhas/postfix', '1.0.0'
