@@ -1,7 +1,3 @@
-class m {
-
-}
-
 class { 'consul':
   version => "0.4.1",
 
