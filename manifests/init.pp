@@ -1,3 +1,1 @@
-class m {
-
-}
+import "*.pp"

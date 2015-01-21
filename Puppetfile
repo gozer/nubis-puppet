@@ -21,9 +21,10 @@ mod 'torrancew/cron', '0.1.0'
 mod 'jbeard/nfs', '0.1.7'
 mod 'KyleAnderson/consul',
     :git => 'https://github.com/solarkennedy/puppet-consul.git',
-    :ref => 'v0.4.2'
+    :ref => 'v0.4.5'
 mod 'uberj-captainshove',
     :git => 'https://github.com/uberj/captainshove-puppet.git',
     :ref => '0.5.0'
-
-
+mod 'ajcrowe/confd', '0.2.0'
+mod 'srf/fluentd', '0.1.4'
+mod 'mjhas/postfix', '1.0.0'
