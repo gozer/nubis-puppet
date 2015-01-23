@@ -29,6 +29,11 @@ mod 'uberj-captainshove',
 
 #mod 'ajcrowe/confd', '0.2.0'
 # Waiting for https://github.com/ajcrowe/puppet-confd/pull/3 to get resolved
+# And these pull requests to be merged
+# https://github.com/ajcrowe/puppet-confd/pull/3
+# https://github.com/ajcrowe/puppet-confd/pull/4
+# https://github.com/ajcrowe/puppet-confd/pull/5
+#
 mod 'gozer-confd',
     :git => 'https://github.com/gozer/puppet-confd.git'
 
