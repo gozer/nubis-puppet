@@ -43,3 +43,5 @@ mod 'confd_site',
 
 mod 'srf/fluentd', '0.1.4'
 mod 'mjhas/postfix', '1.0.0'
+
+mod 'lex/dnsmasq','2.6.1'
