@@ -25,6 +25,16 @@ mod 'KyleAnderson/consul',
 mod 'uberj-captainshove',
     :git => 'https://github.com/uberj/captainshove-puppet.git',
     :ref => '0.5.0'
-mod 'ajcrowe/confd', '0.2.0'
+
+
+#mod 'ajcrowe/confd', '0.2.0'
+# Waiting for https://github.com/ajcrowe/puppet-confd/pull/3 to get resolved
+mod 'gozer-confd',
+    :git => 'https://github.com/gozer/puppet-confd.git'
+
+# Skeleton to get above confd happy
+mod 'confd_site',
+    :git => 'https://github.com/gozer/site_confd.git'
+
 mod 'srf/fluentd', '0.1.4'
 mod 'mjhas/postfix', '1.0.0'
