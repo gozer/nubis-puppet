@@ -45,5 +45,5 @@ mod 'srf/fluentd', '0.1.4'
 mod 'mjhas/postfix', '1.0.0'
 
 #mod 'lex/dnsmasq','2.6.1'
-mod 'dnsmasq',
+mod 'bhourigan/dnsmasq',
     :git => 'https://github.com/bhourigan/puppet-dnsmasq.git'
