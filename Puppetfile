@@ -23,7 +23,7 @@ mod 'jbeard/nfs', '0.1.7'
 mod 'KyleAnderson/consul',
     :git => 'https://github.com/solarkennedy/puppet-consul.git'
 # Waiting for v0.4.7 which includes Amazon Linux support
-https://github.com/solarkennedy/puppet-consul/pull/68
+# https://github.com/solarkennedy/puppet-consul/pull/68
 #    :ref => 'v0.4.6'
 
 mod 'uberj-captainshove',
