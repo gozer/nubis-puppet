@@ -51,3 +51,5 @@ mod 'mjhas/postfix', '1.0.0'
 #mod 'lex/dnsmasq','2.6.1'
 mod 'bhourigan/dnsmasq',
     :git => 'https://github.com/bhourigan/puppet-dnsmasq.git'
+
+mod 'datadog/datadog_agent', '1.1.1'
