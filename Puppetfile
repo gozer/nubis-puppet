@@ -53,3 +53,6 @@ mod 'bhourigan/dnsmasq',
     :git => 'https://github.com/bhourigan/puppet-dnsmasq.git'
 
 mod 'datadog/datadog_agent', '1.1.1'
+
+mod 'nubis/nubis_discovery',
+    :git => 'https://github.com/gozer/nubis-puppet-discovery.git'
