@@ -42,8 +42,8 @@ mod 'gozer-confd',
     :git => 'https://github.com/gozer/puppet-confd.git'
 
 # Skeleton to get above confd happy
-mod 'confd_site',
-    :git => 'https://github.com/gozer/site_confd.git'
+mod 'nubis-confd_site',
+    :git => 'https://github.com/gozer/nubis-site_confd.git'
 
 mod 'srf/fluentd', '0.1.4'
 mod 'mjhas/postfix', '1.0.0'
