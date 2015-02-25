@@ -20,6 +20,8 @@ mod 'ajcrowe/supervisord', '0.5.1'
 mod 'torrancew/cron', '0.1.0'
 mod 'jbeard/nfs', '0.1.8'
 
+mod 'stankevich/python', '1.8.3'
+
 mod 'KyleAnderson/consul',
     :git => 'https://github.com/solarkennedy/puppet-consul.git'
 # Waiting for v0.4.7 which includes Amazon Linux support
