@@ -53,3 +53,6 @@ mod 'datadog/datadog_agent', '1.1.1'
 
 mod 'nubis/nubis_discovery',
     :git => 'https://github.com/gozer/nubis-puppet-discovery.git'
+
+mod 'nubis/nubis_configuration',
+    :git => 'https://github.com/gozer/nubis-puppet-configuration.git'
