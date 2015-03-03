@@ -9,6 +9,8 @@ mod 'puppetlabs/stdlib', '4.5.1'
 mod 'puppetlabs/mysql', '3.1.0'
 mod 'puppetlabs/apache', '1.2.0'
 mod 'puppetlabs/rabbitmq', '5.0.0'
+mod 'jfryman/nginx', '0.2.2'
+
 # Jenkins Dependencies
 mod 'puppetlabs/apt', '1.7.0'
 mod 'puppetlabs/java','1.3.0'
