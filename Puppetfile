@@ -59,3 +59,5 @@ mod 'nubis/nubis_discovery',
 
 mod 'nubis/nubis_configuration',
     :git => 'https://github.com/gozer/nubis-puppet-configuration.git'
+
+mod 'maxchk/varnish', '1.0.0'
