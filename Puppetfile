@@ -7,7 +7,13 @@ forge "https://forgeapi.puppetlabs.com"
 # modules from the puppet forge
 mod 'puppetlabs/stdlib', '4.5.1'
 mod 'puppetlabs/mysql', '3.3.0'
-mod 'puppetlabs/apache', '1.4.0'
+
+# Get directly from github until apache::mod::remoteip is on puppetforge
+#mod 'puppetlabs/apache', '1.4.0'
+mod 'puppetlabs/apache',
+    :git => 'https://github.com/puppetlabs/puppetlabs-apache',
+    :ref => '28a53911fa215623ad142abf72ee63d618fce7bb'
+
 mod 'puppetlabs/rabbitmq', '5.1.0'
 mod 'puppetlabs/vcsrepo', '1.2.0'
 mod 'jfryman/nginx', '0.2.6'
