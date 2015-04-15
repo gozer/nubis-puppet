@@ -7,13 +7,13 @@ forge "https://forgeapi.puppetlabs.com"
 # modules from the puppet forge
 mod 'puppetlabs/stdlib', '4.5.1'
 mod 'puppetlabs/mysql', '3.3.0'
-mod 'puppetlabs/apache', '1.3.0'
-mod 'puppetlabs/rabbitmq', '5.0.0'
+mod 'puppetlabs/apache', '1.4.0'
+mod 'puppetlabs/rabbitmq', '5.1.0'
 mod 'puppetlabs/vcsrepo', '1.2.0'
-mod 'jfryman/nginx', '0.2.2'
+mod 'jfryman/nginx', '0.2.6'
 
 # Jenkins Dependencies
-mod 'puppetlabs/apt', '1.7.0'
+mod 'puppetlabs/apt', '1.8.0'
 mod 'puppetlabs/java','1.3.0'
 mod 'darin/zypprepo', '1.0.2'
 # Jenkins itself
@@ -21,9 +21,9 @@ mod 'rtyler/jenkins', '1.3.0'
 
 mod 'ajcrowe/supervisord', '0.5.2'
 mod 'torrancew/cron', '0.1.0'
-mod 'jbeard/nfs', '0.1.8'
+mod 'jbeard/nfs', '0.1.9'
 
-mod 'stankevich/python', '1.8.3'
+mod 'stankevich/python', '1.9.1'
 
 mod 'KyleAnderson/consul',
     :git => 'https://github.com/solarkennedy/puppet-consul.git'
