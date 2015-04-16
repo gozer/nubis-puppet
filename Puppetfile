@@ -8,6 +8,15 @@ forge "https://forgeapi.puppetlabs.com"
 mod 'puppetlabs/stdlib', '4.5.1'
 mod 'puppetlabs/mysql', '3.3.0'
 
+# concat is required by apache as ">= 1.1.1 < 2.0.0" however the most
+#+ current (1.2.1) has an unset reference to $backup. I am pinning here
+#+ at 1.2.0 as this fixes the build. (2015-04-16). The concat module has
+#+ been completly restructured to use electrical/file_concat, however
+#+ we are currently unable to use the master branch of the concat module
+#+ as it violates the apache concat require_version. Once a new tagged release
+#+ of the concat module is released we should be able to remove this stanza.
+mod 'puppetlabs/concat', '1.2.0'
+
 # Get directly from github until apache::mod::remoteip is on puppetforge
 #mod 'puppetlabs/apache', '1.4.0'
 mod 'puppetlabs/apache',
