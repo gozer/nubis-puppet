@@ -79,4 +79,5 @@ mod 'nubis/nubis_configuration',
 # https://github.com/maxchk/puppet-varnish/pull/52
 #mod 'maxchk/varnish', '1.0.0'
 mod 'nubis/varnish',
-    :git => 'https://github.com/gozer/puppet-varnish.git'
+    :git => 'https://github.com/gozer/puppet-varnish.git',
+    :ref => 'puppetlabs-apt-1.8.0-1.x'
