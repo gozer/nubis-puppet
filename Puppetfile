@@ -75,6 +75,9 @@ mod 'nubis/nubis_discovery',
 mod 'nubis/nubis_configuration',
     :git => 'https://github.com/gozer/nubis-puppet-configuration.git'
 
+mod 'nubis/nubis_storage',
+    :git => 'https://github.com/Nubisproject/nubis-puppet-storage.git'
+
 # Use gozer fork untill the pull request is merged upstream
 # https://github.com/maxchk/puppet-varnish/pull/52
 #mod 'maxchk/varnish', '1.0.0'
