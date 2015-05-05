@@ -78,9 +78,7 @@ mod 'nubis/nubis_configuration',
 mod 'nubis/nubis_storage',
     :git => 'https://github.com/Nubisproject/nubis-puppet-storage.git'
 
-# Use gozer fork untill the pull request is merged upstream
-# https://github.com/maxchk/puppet-varnish/pull/52
-#mod 'maxchk/varnish', '1.0.0'
-mod 'nubis/varnish',
-    :git => 'https://github.com/gozer/puppet-varnish.git',
-    :ref => 'puppetlabs-apt-1.8.0-1.x'
+# This developer doesn't tag his releases on github
+mod 'maxchk/varnish',
+    :git => 'https://github.com/maxchk/puppet-varnish.git'
+    :ref => 'develop'
