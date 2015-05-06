@@ -84,3 +84,4 @@ mod 'maxchk/varnish',
     :ref => 'develop'
 
 mod 'puppetlabs/firewall', '1.5.0'
+mod 'thias/sysctl', '1.0.2'
