@@ -79,9 +79,12 @@ mod 'nubis/nubis_storage',
     :git => 'https://github.com/Nubisproject/nubis-puppet-storage.git'
 
 # This developer doesn't tag his releases on github
+# https://github.com/maxchk/puppet-varnish/pull/57
+# https://github.com/maxchk/puppet-varnish/pull/60
+# https://github.com/maxchk/puppet-varnish/pull/61
 mod 'maxchk/varnish',
-    :git => 'https://github.com/maxchk/puppet-varnish.git',
-    :ref => 'develop'
+    :git => 'https://github.com/gozer/puppet-varnish.git',
+    :ref => 'nubis'
 
 mod 'puppetlabs/firewall', '1.5.0'
 mod 'thias/sysctl', '1.0.2'
