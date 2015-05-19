@@ -88,3 +88,5 @@ mod 'maxchk/varnish',
 
 mod 'puppetlabs/firewall', '1.5.0'
 mod 'thias/sysctl', '1.0.2'
+
+mod 'maestrodev/wget', '1.7.0'
