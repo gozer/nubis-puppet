@@ -46,10 +46,6 @@ mod 'KyleAnderson/consul',
 # https://github.com/solarkennedy/puppet-consul/pull/68
 #    :ref => 'v0.4.6'
 
-mod 'uberj-captainshove',
-    :git => 'https://github.com/uberj/captainshove-puppet.git',
-    :ref => '0.5.0'
-
 mod 'ajcrowe/confd', '0.2.2'
 
 # Skeleton to get above confd happy
