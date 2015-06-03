@@ -50,11 +50,7 @@ mod 'uberj-captainshove',
     :git => 'https://github.com/uberj/captainshove-puppet.git',
     :ref => '0.5.0'
 
-
-#mod 'ajcrowe/confd', '0.2.0'
-# Waiting for https://github.com/kelseyhightower/confd/issues/208 to get resolved
-mod 'gozer-confd',
-    :git => 'https://github.com/gozer/puppet-confd.git'
+mod 'ajcrowe/confd', '0.2.2'
 
 # Skeleton to get above confd happy
 mod 'nubis-confd_site',
