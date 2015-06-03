@@ -31,6 +31,7 @@ mod 'jfryman/nginx', '0.2.6'
 mod 'puppetlabs/apt', '1.8.0'
 mod 'puppetlabs/java','1.3.0'
 mod 'darin/zypprepo', '1.0.2'
+
 # Jenkins itself
 mod 'rtyler/jenkins', '1.3.0'
 
@@ -40,11 +41,7 @@ mod 'jbeard/nfs', '0.1.9'
 
 mod 'stankevich/python', '1.9.1'
 
-mod 'KyleAnderson/consul',
-    :git => 'https://github.com/solarkennedy/puppet-consul.git'
-# Waiting for v0.4.7 which includes Amazon Linux support
-# https://github.com/solarkennedy/puppet-consul/pull/68
-#    :ref => 'v0.4.6'
+mod 'KyleAnderson/consul', '1.0.0'
 
 mod 'ajcrowe/confd', '0.2.2'
 
